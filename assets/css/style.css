@@ -231,6 +231,10 @@ input[type=text], select, textarea {
 }
 
 /* Hero Section */
+.flex {
+  display: flex;
+}
+
 .hero {
   position: relative;
   min-height: calc(100vh - var(--header-mob-h));
