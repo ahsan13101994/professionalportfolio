@@ -377,11 +377,40 @@ input[type=text], select, textarea {
   clear: both;
 }
 
+/* Responsive layout - screen less than 600px wide, stack column*/
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
 /* Content */
 .content {
   background-color: white;
   padding: 10px;
+  min-height: 500px;
 }
+
+@media screen and (min-width: 1500px) {
+  .content {
+    min-height: 600px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .content {
+    min-height: 600px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .content {
+    min-height: 700px;
+  }
+}
+
+
 
 /* The "show" class is added to the filtered elements */
 .show {
