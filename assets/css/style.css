@@ -1,3 +1,16 @@
+:root {
+  --clr-white: #fff;
+  --clr--black: #000;
+  --clr-primary: #FF6464;
+  --clr-dark: #21243D;
+  --clr-dark-blue: #142850;
+  --clr-light: #8695A4;
+  --clr-light-cyen: #EDF7FA;
+  --clr-gray: #E0E0E0;
+  --clr-bg: #fff;
+  --clr-blue: #00A8CC;
+}  
+
 body {
     margin: 0;
     font-family:'proxima-nova', sans-serif;
@@ -84,7 +97,8 @@ body {
     float: right;
   }
   
-.button:hover {
+
+  .button:hover {
     background-color: #555;
   }
 
@@ -253,6 +267,7 @@ input[type=text], select, textarea {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 @media (min-width: 48em) { /* 768px */
@@ -261,6 +276,7 @@ input[type=text], select, textarea {
     padding-top: var(--header-des-h);
     flex-direction: row-reverse;
     justify-content: space-between;
+    margin-bottom: 25px;
   }
 }
 
@@ -311,4 +327,26 @@ input[type=text], select, textarea {
   margin-bottom: 1.5625rem; /* 25px */
 }
 
+/*Download Button*/
+
+
+.btn {
+  background-color: var(--clr-white);
+  color: var(--clr-dark);
+  transition: all 300ms ease-in-out;
+  margin-bottom: 5px;
+}
+
+.btn--main {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+  padding: 0.5625rem 1.31875rem; /* 9px 21.1px */
+  font-size: 1.25rem; /* 20px */
+  border-radius: 0.125rem; /* 2px */
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.8;
+}
  
