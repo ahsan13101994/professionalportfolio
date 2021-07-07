@@ -235,6 +235,16 @@ input[type=text], select, textarea {
   display: flex;
 }
 
+.container {
+  background-color: white;
+}
+
+.container2 {
+  max-width: 64rem; /* 1024px */
+  padding: 0.65625rem; /* 10.5px */
+  margin: auto;
+}
+
 .hero {
   position: relative;
   min-height: calc(100vh - var(--header-mob-h));
