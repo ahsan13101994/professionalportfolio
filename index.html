@@ -45,26 +45,93 @@
         </main>
 
         <br>
+    <!-- Portfolio -->  
+        <main>
+         <section>
+        <h2>PORTFOLIO</h2>
+          <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('html')">HTML</button>
+            <button class="btn" onclick="filterSelection('JS/API')"> JS/API </button>
+            <button class="btn" onclick="filterSelection('Node')">Node/SQL</button>
+          </div>
+
+          <!-- Portfolio Gallery Grid -->
+          <div class="row">
+
+            <div class="column Node">
+              <div class="content">
+                <a target="_blank" href="https://intense-savannah-61016.herokuapp.com/">
+                  <img src="assets/images/landing-page.png" alt="Plan Your Trip" style="width:100%"></a>
+                  <h4>Plan Your Trip</h4>
+                  <p>As a team, we wanted to build an app, where you can plan for, and keep track of travel expenses, and have the ability to convert into different currencies.
+                    We made an app that gives you the ability to create a profile, where you can add trip budget cards, destinations and traveller advice on those destinations for other users to see.
+                    We hope you enjoy this first version of our app.
+                  </p>
+                  <button class="btn btn--main"><a href="https://intense-savannah-61016.herokuapp.com/" target="_blank">Deployed</a></button>
+                  <button class="btn btn--main"><a href="https://github.com/darylnauman/cold-travel-planner" target="_blank">Repo</a></button>
+              </div>
+            </div>
+
+            <div class="column JS/APIs">
+               <div class="content">
+                <a target="_blank" href="https://romzzp.github.io/Group-Project1/">
+                <img src="assets/images/plan_vacation_demo.gif" alt="Plan Vacation Website" style="width:100%"></a>
+                <h4>Plan Your Vacation</h4>
+                <p>Planning your vacation has never been easier with this website that will help you find hotels around the world!
+                  This is a group project that used Web APIs such as Maps, Hotels and Geocode
+                </p>
+                <button class="btn btn--main"><a href="https://romzzp.github.io/Group-Project1/" target="_blank">Deployed</a></button>
+                <button class="btn btn--main"><a href="https://github.com/romzzp/Group-Project1" target="_blank">Repo</a></button>
+              </div>
+            </div>
+            
+            <div class="column html">
+              <div class="content">
+                <a target="_blank" href="https://ahsan13101994.github.io/timed_quiz/">
+                  <img src="assets/images/project_2.JPG" alt="Java Code Quiz"style="width:100%"></a>
+                  <h4>Java Code Quiz</h4>
+                  <p>Simple Java Quiz application, that stores user ranks high to low on the local database. </p>
+                  <button class="btn btn--main"><a href="https://romzzp.github.io/Group-Project1/" target="_blank">Deployed</a></button>
+                  <button class="btn btn--main"><a href="https://github.com/romzzp/Group-Project1" target="_blank">Repo</a></button>
+              </div>
+            </div>
+
+            <div class="column JS/API">
+              <div class="content">
+                <img src="https://www.w3schools.com/w3images/cars1.jpg" alt="Car" style="width:100%">
+                <h4>Retro</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            
+            <div class="column cars">
+              <div class="content">
+                <img src="https://www.w3schools.com/w3images/cars2.jpg" alt="Car" style="width:100%">
+                <h4>Fast</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="column cars">
+              <div class="content">
+                <img src="https://www.w3schools.com/w3images/cars3.jpg" alt="Car" style="width:100%">
+                <h4>Classic</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+          <!-- END GRID -->
+          </div>
+        </section> 
+        </main>
 
         <main>
+
             <aside id="work">
                 <h2>Portfolio</h2>
             </aside>
             <section>
-                <div class="img-container">
-                    <a target="_blank" href="https://romzzp.github.io/Group-Project1/">
-                    <img src="assets/images/plan_vacation_demo.gif" alt="Plan Vacation Website" style="width:100%;">
-                    <div class="bottom-left">Plan Your Vacation Interface
-                      <button><a href="https://github.com/ahsan13101994/Group-Project1" target="_blank">Deployed</a></button>
-                    </div>
-                    </a>                
-                </div>
-                <div class="portfolio">
-                        <a target="_blank" href="https://ahsan13101994.github.io/timed_quiz/">
-                        <img src="assets/images/project_2.JPG" alt="Java Code Quiz">
-                        <button><a href="https://github.com/ahsan13101994/timed_quiz" target="_blank">Deployed</a></button>
-                        </a>
-                </div>
+               
+                
                 <div class="portfolio">
                     <a target="_blank" href="https://ahsan13101994.github.io/code_refactor_assignment/">
                     <img src="assets/images/project_3.JPG" alt="Horiseon Website">
