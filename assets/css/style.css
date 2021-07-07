@@ -193,14 +193,14 @@ input[type=text], select, textarea {
 }
 
 /* Create two columns side by side */
-.column {
+.column1 {
   float: left;
   width: 50%;
   margin-top: 6px;
   padding: 20px;
 }
 
-.row:after {
+.row1:after {
   content: "";
   display: table;
   clear: both;
@@ -238,7 +238,7 @@ input[type=text], select, textarea {
 
 /* Responsive layout - screen less than 600px wide, stack column*/
 @media screen and (max-width: 600px) {
-  .column, input[type=submit] {
+  .column1, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
