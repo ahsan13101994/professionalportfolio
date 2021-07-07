@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    font-family:'proxima-nova', sans-serif;
+    background: url(../images/background.jpg) repeat;
+  }
+  
+  header {
+      padding: 60px;
+      text-align: center;
+      background: #13293d;
+      background: url(../images/background.jpg) repeat;
+      color: #fff;
+    }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #13293d;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #0476aab9;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+  main {
+    display: flex;
+  }
+
+  aside {
+    flex: 30%;
+    background-color: #240e57b9;
+    padding: 20px;
+    flex-wrap: wrap;
+    color: white;
+   
+  }
+  .picture{
+    display: flex;
+    flex: 30%;
+    background-color: #240e57b9;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  section {
+    flex: 70%;
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 20px;
+  }
+
+.profile {
+    
+    margin-top: 5px;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+  }
+  
+.button:hover {
+    background-color: #555;
+  }
+
+  /*Social Icons*/
+  .img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'proxima-nova', sans-serif;
+    position: absolute;
+    bottom: 5px;
+    left: 1px;
+    background-color: rgba(240, 248, 255, 0.507);
+    width: 40%;
+    text-align: left;
+    padding-left: 3px;
+  }
+
+  div.portfolio {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    height: 100px;
+  }
+  
+  div.portfolio:hover {
+    border: 4px solid #777;
+  }
+  
+
+  div.portfolio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /*Social Icons*/
+  .fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: purple;
+    color: white;
+  }
+  
+  .fa-github {
+    background: grey;
+    color: white;
+  }
+
+/* Contact Styling */
+/* Form Stlye inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style contact section */
+.contactsection {
+  background-color: #f2f2f2e5;
+  padding: 10px;
+}
+
+/* Create two columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  
+  /* Tablets - 992px changes header background*/
+  @media screen and (max-width: 992px) {
+    header {
+      background: url(../images/background-3.png) repeat;
+    }
+  }
+
+  /* Media Queries */
+  /* Large smartphones - 768px changes header background */
+  @media screen and (max-width: 768px) {
+    header {
+      background: url(../images/background-2.jpg) repeat;
+    }
+  }
+  
+  /* Small smartphones - 576px changes header background */
+  @media screen and (max-width: 576px) {
+    header{
+      background: url(../images/background-1.jpg) repeat;
+    }
+  }
+
+/* Responsive layout - screen less than 600px wide, stack column*/
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+ 
